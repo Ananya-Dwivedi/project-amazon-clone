@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 70px;
+    width: 120px;
+    top: 20px;
+}
+.logo{
+    height: 70px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://w7.pngwing.com/pngs/221/535/png-transparent-amazon-dark-hd-logo-thumbnail.png);
+    
+}   
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*box-2*/
+.add-first{
+    color: #cccccc;
+    font-size: 1.1rem;
+    height: 2rem;
+    margin-left: 15px;
+
+}
+.add-sec{
+    font-size: 1.3rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*box-3*/
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:3px ;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 187, 0, 0.87);
+    border-top-right-radius:3px ;
+    border-bottom-right-radius: 3px;
+    color: black;
+    
+}
+.flag-image{
+    width: 30px;
+    height: 25px;
+}
+.flag{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+.nation{
+    display: flex;
+    justify-content: center;
+}
+/*box-4*/
+span{
+    font-size: 0.75rem;
+    margin-left: 0.3rem;
+
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+
+}
+.nav-second{
+    margin-left:0.3rem;
+}
+.nav-cart i{
+    font-size: 35px;
+    height: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+   
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/*hero-section*/
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+    background-size: cover;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Skincare-trust-Mobfdfo._CB554429490_.jpg);
+}
+.hero-message{
+    background-color:white;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    
+}
+.hero-message a{
+    color: #007185;
+}
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#f5a962;   
+    flex-wrap: wrap;
+}
+.box{
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+}
+.box-content p{
+    color: #007185;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: #dddddd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color:#dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(https://w7.pngwing.com/pngs/221/535/png-transparent-amazon-dark-hd-logo-thumbnail.png);
+    
+} 
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+    
+}
+.foot-panel4 a{
+    text-decoration: none;
+}
+.pages{
+    
+    padding-top: 25px;
+}
+.copyrights{
+    padding-top: 5px;
+    
+}
